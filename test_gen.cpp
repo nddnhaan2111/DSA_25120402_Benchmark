@@ -9,7 +9,7 @@ using namespace std;
 
 void test_int() {
     int n = 100000;
-    ofstream f1("int/test01.in");
+    ofstream f1("int/test001.in");
     if (f1.is_open()) {
             f1 << n << "\n";
             for (int i = 0; i < n; i++) f1 << i << "\n";
